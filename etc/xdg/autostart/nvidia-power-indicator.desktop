@@ -1,0 +1,29 @@
+# This file is part of NVIDIA Power Indicator - indicator applet for NVIDIA Optimus laptops.
+# Copyright (C) 2016 André Brait Carneiro Fabotti
+#
+# This work is based on the works of Alfred Neumayer and Clement Lefebvre.
+#
+# NVIDIA Power Indicator is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# NVIDIA Power Indicator is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with NVIDIA Power Indicator.  If not, see <http://www.gnu.org/licenses/>.
+
+[Desktop Entry]
+
+Name=NVIDIA Power Indicator
+Comment=Shows a tray icon when a compatible NVIDIA Optimus graphics card is detected
+Exec=/usr/lib/nvidia-power-indicator/nvidia-power-indicator
+Icon=/usr/lib/nvidia-power-indicator/icons/nvidia-power-indicator-nvidia.svg
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;Settings;
+StartupNotify=false
+Name[pt_BR]=NVIDIA Power Indicator

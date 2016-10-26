@@ -206,8 +206,17 @@ class Indicator:
         self.set_nv_pm_labels()
 
     def turn_nv_off(self) -> None:
-        os.system(SCRIPT_CMD + " off")
-        self.set_nv_pm_labels()
+        primus_pids = subprocess.getoutput("pgrep -f primusrun")  # type:bytes
+        optirun_pids = subprocess.getoutput("pgrep -f optirun")  # type:bytes
+        if primus_pids or optirun_pids:
+            message = "It seems there are programs using the NVIDIA GPU. " + \
+                      "They need to be stopped before turning the GPU off."
+            dialog = Gtk.MessageDialog(None, Gtk.DIALOG_MODAL, Gtk.MESSAGE_ERROR, Gtk.BUTTONS_OK, message)
+            dialog.set_deletable(False)
+            dialog.run()
+        else:
+            os.system(SCRIPT_CMD + " off")
+            self.set_nv_pm_labels()
 
     def set_nv_pm_labels(self, nvidia_on=None) -> None:
         if self.pm_enabled:

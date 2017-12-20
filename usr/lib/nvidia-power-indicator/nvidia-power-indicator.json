@@ -1,82 +1,98 @@
 {
 	"show_reboot_dialog": {
-	"hu_HU": "Ahhoz, hogy a "
+	"hu_HU": "Ahhoz, hogy a ",
 	"it_IT": "Devi terminare la sessione per passare dalla GPU ",
-	"en_EN": "You need to log out to switch from the "
+	"en_EN": "You need to log out to switch from the ",
+	"es_ES": "Debes cerrar sesión para cambiar de "
 	},
 	"msg_nvidia": {
-	"hu_HU": "dedikált NVIDIA videokártyá"
+	"hu_HU": "dedikált NVIDIA videokártyá",
 	"it_IT": "dedicata NVIDIA",
-	"en_EN": "dedicated NVIDIA GPU"
+	"en_EN": "dedicated NVIDIA GPU",
+	"es_ES": "la GPU dedicada NVIDIA"
 	},
 	"msg_intel": {
-	"hu_HU": "beépített Intel videokártyá"
+	"hu_HU": "beépített Intel videokártyá",
 	"it_IT": "integrata Intel",
-	"en_EN": "integrated Intel GPU"
+	"en_EN": "integrated Intel GPU",
+	"es_ES": "la GPU integrada Intel"
 	},
 	"show_reboot_dialog2": {
-	"hu_HU": "ról a "
+	"hu_HU": "ról a ",
 	"it_IT": " alla GPU ",
-	"en_EN": " to the "
+	"en_EN": " to the ",
+	"es_ES": " a la "
 	},
 	"show_reboot_dialog3": {
-	"hu_HU": "ra válthassunk ki kell jelentkezni. Mentsd minden munkád mielőtt ezt megtennéd!"
+	"hu_HU": "ra válthassunk ki kell jelentkezni. Mentsd minden munkád mielőtt ezt megtennéd!",
 	"it_IT": ". Salva il tuo lavoro prima di premere il pulsante 'Log Out'.",
-	"en_EN": ". Save your work before clicking the Log Out button below."
+	"en_EN": ". Save your work before clicking the Log Out button below.",
+	"es_ES": ". Guarda tus archivos antes de hacer clic en el botón 'Cerrar sesión'."
 	},
 	"renderer_string": {
-	"hu_HU": "Használatban"
+	"hu_HU": "Használatban",
 	"it_IT": "In uso",
-	"en_EN": "Using"
+	"en_EN": "Using",
+	"es_ES": "En uso"
 	},
 	"switch_in_use": {
-	"hu_HU": "Váltás másik videokártyára..."
+	"hu_HU": "Váltás másik videokártyára...",
 	"it_IT": "Cambia velocemente scheda grafica ...",
-	"en_EN": "Quick switch graphics ..."
+	"en_EN": "Quick switch graphics ...",
+	"es_ES": "Cambiar rápidamente de gráficos..."
 	},
 	"toggle_power_management_enable": {
-	"hu_HU": "NVIDIA energiagazdálkodás bekapcsolása"
+	"hu_HU": "NVIDIA energiagazdálkodás bekapcsolása",
 	"it_IT": "Abilita gestione dell'alimentazione GPU NVIDIA",
-	"en_EN": "Enable NVIDIA GPU Power Management"
+	"en_EN": "Enable NVIDIA GPU Power Management",
+	"es_ES": "Habilitar gestión de energía de la GPU NVIDIA",
 	},
 	"nv_power_string": {
-	"hu_HU": "NVIDIA videokártya "
+	"hu_HU": "NVIDIA videokártya ",
 	"it_IT": "La GPU NVIDIA è ",
-	"en_EN": "NVIDIA GPU is powered "
+	"en_EN": "NVIDIA GPU is powered ",
+	"es_ES": "La GPU NVIDIA está "
 	},
 	"nv_power_string_on": {
-	"hu_HU": "bekapcsolva"
+	"hu_HU": "bekapcsolva",
 	"it_IT": "accesa",
-	"en_EN": "ON"
+	"en_EN": "ON",
+	"es_ES": "encendida",
 	},
 	"nv_power_string_off": {
-	"hu_HU": "kikapcsolva"
+	"hu_HU": "kikapcsolva",
 	"it_IT": "spenta",
-	"en_EN": "OFF"
+	"en_EN": "OFF",
+	"es_ES": "apagada"
 	},
 	"nv_power_switch_string": {
-	"hu_HU": "NVIDIA videokártya kényszerített "
+	"hu_HU": "NVIDIA videokártya kényszerített ",
 	"it_IT": "Forza la GPU NVIDIA ad ",
-	"en_EN": "Force NVIDIA GPU to power "
+	"en_EN": "Force NVIDIA GPU to power ",
+	"es_ES": "Forzar la GPU NVIDIA a "
 	},
 	"nv_power_switch_string_on": {
-	"hu_HU": "bekapcsolása"
+	"hu_HU": "bekapcsolása",
 	"it_IT": "accendersi",
-	"en_EN": "turn on"
+	"en_EN": "turn on",
+	"es_ES": "encenderse"
 	},
 	"nv_power_switch_string_off": {
-	"hu_HU": "kikapcsolása"
+	"hu_HU": "kikapcsolása",
 	"it_IT": "spegnersi",
-	"en_EN": "turn off"
+	"en_EN": "turn off",
+	"es_ES": "apagarse"
 	},
 	"run_nvidia_settings": {
-	"hu_HU": "NVIDIA Vezérlőpult"
+	"hu_HU": "NVIDIA Vezérlőpult",
 	"it_IT": "Apri impostazioni NVIDIA",
-	"en_EN": "Open NVIDIA Settings"
+	"en_EN": "Open NVIDIA Settings",
+	"es_ES": "Abrir la aplicación de Configuración de NVIDIA"
 	},
 	"quit": {
-	"hu_HU": "Kilépés"
+	"hu_HU": "Kilépés",
 	"it_IT": "Esci",
-	"en_EN": "Quit"
+	"en_EN": "Quit",
+	"es_ES": "Salir"
 	}
 }
